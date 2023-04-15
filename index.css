@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  margin: 0 0;
+  background-color: black;
+}
+main {
+  display: flex;
+  position: absolute;
+  top: calc(50% - 10vw);
+  left: calc(50% - 28vw);
+}
+.hour,
+.minute,
+.second {
+  text-align: center;
+  color: rgba(224, 228, 231, 0.836);
+  font-size: 15vw;
+  padding-bottom: 1vw;
+  background: #52505054;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  width: 18vw;
+  height: 19vw;
+  margin-right: 1vw;
+  border-radius: 5%;
+}
+.w {
+  font-size: 30px;
+  color: aqua;
+}
+.passh,
+.passm {
+  text-align: center;
+  color: black;
+  font-size: 4vw;
+
+  padding-bottom: 25px;
+  background: #ffffffa6;
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  width: 6vw;
+
+  height: 4vw;
+  margin-right: 0 10vw;
+  border-radius: 5%;
+}
+.set {
+  display: flex;
+
+  width: 25%;
+  transition: 50%;
+}
+hr {
+  margin-top: 19.5%;
+  color: rgb(102, 97, 97);
+}
